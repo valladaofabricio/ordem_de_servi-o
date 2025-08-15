@@ -59,39 +59,6 @@ Este repositório contém o **esquema conceitual** de um processo de *ordem de s
 O arquivo **Ordem.png** neste repositório contém o esquema conceitual exatamente como na imagem fornecida.  
 Se desejar editar o desenho, recrie-o no [diagrams.net](https://app.diagrams.net/) e salve como **.drawio** (Arquivo → Salvar como…).
 
----
-
-## Passo a passo — Como publicar este esquema no GitHub
-
-### Opção A — usando apenas o navegador (sem instalar nada)
-1. Acesse [github.com](https://github.com) e entre na sua conta (ou crie uma).  
-2. Clique em **New** (novo repositório).  
-3. Preencha:
-   - **Repository name**: `ordem-de-servico-conceitual` (ou o nome que preferir)  
-   - **Public** e marque **Add a README file**.  
-4. Clique em **Create repository**.  
-5. Dentro do repositório, clique em **Add file → Upload files** e envie os arquivos **README.md** e **Ordem.png** deste projeto.  
-6. Role a página, escreva uma mensagem de commit (ex.: *Add diagrama ER e README*), e clique em **Commit changes**.  
-7. Verifique o README renderizado: a imagem deve aparecer logo abaixo do título.
-
-### Opção B — usando Git no computador
-> Válido para Windows, macOS ou Linux (com Git instalado).
-
-1. **Baixe** os arquivos deste projeto (**README.md** e **Ordem.png**) para uma pasta local.  
-2. Abra o **Terminal** (ou **Prompt de Comando/PowerShell**) nessa pasta e execute:
-```bash
-git init
-git add README.md Ordem.png
-git commit -m "Add diagrama conceitual e README"
-```
-3. No GitHub, crie um repositório vazio (sem README) chamado `ordem-de-servico-conceitual`.  
-4. No terminal, conecte e envie:
-```bash
-git branch -M main
-git remote add origin https://github.com/<seu-usuario>/ordem-de-servico-conceitual.git
-git push -u origin main
-```
-5. Atualize a página do repositório para ver o README com a imagem embutida.
 
 ---
 
